@@ -1,0 +1,19 @@
+table{
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    align-self: start;
+    padding: auto;
+    word-spacing: normal;
+    background-color:azure;  
+   
+}
+
+table{
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}

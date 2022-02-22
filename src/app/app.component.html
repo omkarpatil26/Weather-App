@@ -1,0 +1,15 @@
+<div class="container">
+<h2>Weather app using angular google maps</h2>
+
+  <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onMapClicked($event)">
+    <agm-marker [latitude]="latitude" [longitude]="longitude" 
+
+    [iconUrl]='"assets/img/cloudd.png"'
+
+    ></agm-marker> 
+  </agm-map>
+  
+  <div>Latitude: {{latitude}}</div>
+  <div>Longitude: {{longitude}}</div>
+</div>
+<app-weather [newLat]="latitude" [newLon]="longitude"></app-weather>

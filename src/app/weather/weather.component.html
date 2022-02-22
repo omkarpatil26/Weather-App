@@ -1,0 +1,25 @@
+<table border="6" style="width: 100%;">
+<tr>
+     <th colspan="13">Current Weather</th>
+</tr>
+
+<tr>
+<td>City</td>
+<td>Temperature</td>
+<td>Min / Max</td>
+<td>Feels Like</td>
+<td>Humidity</td>
+<td>Latitude</td>
+<td>Longitude</td>
+</tr>
+
+<tr>
+    <td>{{WeatherData.name}}</td>
+    <td>{{WeatherData.temp_celcius}}°</td>
+    <td>{{WeatherData.temp_min}}° / {{WeatherData.temp_max}}°</td>
+    <td>{{WeatherData.temp_feels_like}}°</td>
+    <td>{{WeatherData.main.humidity}}%</td>
+    <td>{{newLat}}</td>
+    <td>{{newLon}}</td>
+    </tr>
+</table>    
